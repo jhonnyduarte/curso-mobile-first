@@ -81,7 +81,7 @@
         height: 48px;
         background-color: var(--off-white);
         /* Sombra*/
-        box-shadow: 0px 4px 8px rgba(89,73, 30, 0.16);
+        box-shadow: 0px 8px 8px rgba(89,73, 30, 0.66);
         border: none;
         border-radius: 5px;
         font-size: 1.4rem;
@@ -169,7 +169,7 @@
         font-size: 1.6rem;
         font-weight: 500;
         line-height: 1.9rem;
-        color: var(--grey);
+        color: var(--black);
         background-color: var(--just-white);
     }
     .currency-table--container .table__top-left, .commissions-table--container .table__top-left {
@@ -328,7 +328,7 @@
         width: 100%;
         min-width: 320px;
         height: 50vh;
-        background-image: url(assets/imgs/bitcoinbaby2x.jpg);
+        background-image: url('assets/imgs/bitcoinbaby.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -371,7 +371,7 @@
     .plans-container--slider {
         display: flex;
         height: 316px;
-        overflow-x: scroll;
+        overflow-x:scroll;
         overscroll-behavior-x: contain;
         scroll-snap-type: x proximity;
     }
@@ -386,7 +386,7 @@
         padding: 0 15px;
         background-color: var(--just-white);
         border-radius: 15px;
-        box-shadow: 0 4px 8px rgba(89,73, 30, 0.16);
+        box-shadow: 5px 8px 8px rgba(89,73, 30, 0.66);
     }
     .recommended {
         position: absolute;
@@ -479,4 +479,8 @@
     .left a {
         text-decoration: none;
         color: var(--just-white);
+    }
+    footer img {
+        width: 100px;
+        height: 150px;
     }
